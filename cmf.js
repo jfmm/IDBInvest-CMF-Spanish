@@ -97,7 +97,7 @@
   };
   
 
-  var button = $(".cmf-info-box");
+  var button = $(".career-path-col .cmf-info-box"); // bind to boxes under career path column only
   
   
   button.on("click", function () {
