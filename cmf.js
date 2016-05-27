@@ -3,96 +3,96 @@
   //declare JSON Object with IDBdoc IDSs
   var pathLevelDocs = {
     "businessLeader" : {
-      "A": 39909392,
-      "B": 39909399,
-      "C": 39909404
+      "A": 'EZSHARE-268124817-1141',
+      "B": 'EZSHARE-268124817-1139',
+      "C": 'EZSHARE-268124817-1140'
     },
     "budget": {
-      "B" : 39909806,
-      "C" : 39909808,
-      "D" : 39909812,
-      "E" : 39909802
+      "B" : 'EZSHARE-268124817-1145',
+      "C" : 'EZSHARE-268124817-1142',
+      "D" : 'EZSHARE-268124817-1143',
+      "E" : 'EZSHARE-268124817-1144'
     },
     
     "marketing": {
-      "B" : 39909818,
-      "C" : 39909829,
-      "D" : 39909837,
-      "E" : 39909841
+      "B" : '	EZSHARE-268124817-1150',
+      "C" : 'EZSHARE-268124817-1151',
+      "D" : 'EZSHARE-268124817-1148',
+      "E" : 'EZSHARE-268124817-1149'
     },
     
     "devEffectiveness" : {
-      "B" : 39909857,
-      "C" : 39909861,
-      "D" : 39909889,
-      "E" : 39909893
+      "B" : 'EZSHARE-268124817-1154',
+      "C" : 'EZSHARE-268124817-1155',
+      "D" : 'EZSHARE-268124817-1152',
+      "E" : 'EZSHARE-268124817-1153'
     },
     
     "envSocial": {
-      "B" : 39909902,
-      "C" : 39909912,
-      "D" : 39909917,
-      "E" : 39909926
+      "B" : 'EZSHARE-268124817-1159',
+      "C" : 'EZSHARE-268124817-1156',
+      "D" : 'EZSHARE-268124817-1157',
+      "E" : 'EZSHARE-268124817-1158'
     },
     
     "IT": {
-      "B" : 39909940,
-      "C" : 39909950,
-      "D" : 39909953,
-      "E" : 39909957
+      "B" : 'EZSHARE-268124817-1162',
+      "C" : 'EZSHARE-268124817-1163',
+      "D" : 'EZSHARE-268124817-1160',
+      "E" : 'EZSHARE-268124817-1161'
     },
     
     "investment": {
-      "B" : 39910344,
-      "C" : 39910350,
-      "D" : 39910358,
-      "E" : 39910364
+      "B" : 'EZSHARE-268124817-1166',
+      "C" : 'EZSHARE-268124817-1167',
+      "D" : 'EZSHARE-268124817-1164',
+      "E" : 'EZSHARE-268124817-1165'
     },
     
     "legal": {
-      "B" : 39910008,
-      "C" : 39910016,
-      "D" : 39910021,
-      "E" : 39910041
+      "B" : 'EZSHARE-268124817-1170',
+      "C" : 'EZSHARE-268124817-1171',
+      "D" : 'EZSHARE-268124817-1168',
+      "E" : 'EZSHARE-268124817-1169'
     },
     
     "portfolioMgmt": {
-      "B" : 39910179,
-      "C" : 39910183,
-      "D" : 39910191,
-      "E" : 39910199
+      "B" : 'EZSHARE-268124817-1174',
+      "C" : 'EZSHARE-268124817-1175',
+      "D" : 'EZSHARE-268124817-1172',
+      "E" : 'EZSHARE-268124817-1173'
     },
     
     "resPlanning": {
-      "B" : 39910203,
-      "C" : 39910211,
-      "D" : 39910216,
-      "E" : 39910221
+      "B" : 'EZSHARE-268124817-1178',
+      "C" : 'EZSHARE-268124817-1179',
+      "D" : 'EZSHARE-268124817-1176',
+      "E" : 'EZSHARE-268124817-1177'
     },
     
     "riskMgmt" : {
-      "B" : 39910229,
-      "C" : 39910232,
-      "D" : 39910260,
-      "E" : 39910265
+      "B" : 'EZSHARE-268124817-1182',
+      "C" : 'EZSHARE-268124817-1183',
+      "D" : 'EZSHARE-268124817-1180',
+      "E" : 'EZSHARE-268124817-1181'
     },
     
     "strategy": {
-      "B" : 39910273,
-      "C" : 39910283,
-      "D" : 39910289,
-      "E" : 39910295
+      "B" : 'EZSHARE-268124817-1186',
+      "C" : 'EZSHARE-268124817-1187',
+      "D" : 'EZSHARE-268124817-1184',
+      "E" : 'EZSHARE-268124817-1185'
     },
     "treasury": {
-      "B" : 39910314,
-      "C" : 39910329,
-      "D" : 39910336,
-      "E" : 39910339
+      "B" : 'EZSHARE-268124817-1191',
+      "C" : 'EZSHARE-268124817-1188',
+      "D" : 'EZSHARE-268124817-1189',
+      "E" : 'EZSHARE-268124817-1190'
     },
     
     "businessSupport": {
-      "F" : 39909752,
-      "G" : 39909763
+      "F" : 'EZSHARE-268124817-1146',
+      "G" : 'EZSHARE-268124817-1147'
     }
   };
   
@@ -150,8 +150,9 @@
       docIDs.push(pathLevelDocs[path][prop]);
     }
     
+    https://idbg.sharepoint.com/teams/IICCorporate/administrative management/_layouts/15/DocIdRedir.aspx?ID=
     
-    var baseURL = "http://idbdocs.iadb.org/WSDocs/getDocument.aspx?DOCNUM=";
+    var baseURL = "https://idbg.sharepoint.com/teams/IICCorporate/administrative management/_layouts/15/DocIdRedir.aspx?ID=";
     
     
     //loop over visible buttons and set their href values
