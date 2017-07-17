@@ -1,6 +1,6 @@
 (function ($) {
   
-  //declare JSON Object with IDBdoc IDSs
+  //declare JSON Object with EZ-SHARE IDSs
   var pathLevelDocs = {
     "businessLeader" : {
       "A": 'EZSHARE-268124817-1141',
@@ -15,7 +15,7 @@
     },
     
     "marketing": {
-      "B" : '	EZSHARE-268124817-1150',
+      "B" : 'EZSHARE-268124817-1150',
       "C" : 'EZSHARE-268124817-1151',
       "D" : 'EZSHARE-268124817-1148',
       "E" : 'EZSHARE-268124817-1149'
@@ -144,14 +144,12 @@
     
    
     
-    var docIDs = []; // stores IDB doc ids for path clicked
+    var docIDs = []; // stores EZSHARE ids for path clicked
     
     for(prop in pathLevelDocs[path]) {
       docIDs.push(pathLevelDocs[path][prop]);
     }
-    
-    https://idbg.sharepoint.com/teams/IICCorporate/administrative management/_layouts/15/DocIdRedir.aspx?ID=
-    
+
     var baseURL = "https://idbg.sharepoint.com/teams/IICCorporate/administrative management/_layouts/15/DocIdRedir.aspx?ID=";
     
     
