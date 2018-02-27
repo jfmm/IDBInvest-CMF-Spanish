@@ -39,5 +39,5 @@ Follow these 3 easy steps:
 
 </main>
 ```
-##Recommendations
+## Recommendations
 You might want to link the minified `cmf-min.js` as it reduces the script's file size 50%. 
