@@ -30,9 +30,13 @@ Follow these 3 easy steps:
 **3. Copy the HTML snippet into your webpage.** Basically copy and paste the entire `<section id="cmf-wrap">` into a container. Changing ID's and classes in the markup is not recommended as it will break the styles and functionality.
 ```html
 <main id="yourContainer">
+ 
+  <!-- copy and paste from here..-->
   <section id="cmf-wrap">
-  <!-- all the main interface goes here-->
+  <!-- the main markup is here-->
   </section>
+  <!-- ... to here-->
+
 </main>
 ```
 
